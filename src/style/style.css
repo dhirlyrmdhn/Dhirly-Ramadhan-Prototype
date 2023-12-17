@@ -1,0 +1,48 @@
+/* * {
+    color: white;
+    background: #171717;
+} */
+
+#gallery {
+    width: 100vw;
+    overflow: auto;
+}
+
+#gallery::-webkit-scrollbar {
+    opacity: 0;
+}
+
+#gallery .card {
+    height: 50vh;
+    aspect-ratio: 3 / 4;
+    background: gray;
+    border-radius: 12px;
+}
+
+#gallery .card:hover {
+    border-radius: 100%;
+    transform: rotate(15deg);
+}
+
+#bottom-content .circle {
+    width: 80px;
+    aspect-ratio: 1 / 1;
+}
+
+#bottom-content .border {
+    border: 1px solid pink;
+}
+
+.button {
+    border-radius: 100px;
+    background: linear-gradient(90deg, pink, aqua);
+    padding: 8px 16px;
+}
+
+.aside-text {
+    max-width: 550px;
+}
+
+.typhograpy {
+    font-size: 10vh;
+}
